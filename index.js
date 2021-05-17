@@ -2,9 +2,9 @@
 
 
 //Use bracket notation to add
-  //a string to the first index
-  //a boolean to the second index
-  //a number to the fourth index
+//a string to the first index
+//a boolean to the second index
+//a number to the fourth index
 
 
 //When you console.log the third and fourth indices 
@@ -40,9 +40,11 @@ nextNum(100) => 101
 
 */
 
-function nextNum(number){
++
   //CODE BELOW HERE
-
+  function nextNum(6) {
+    return 6 + 1;
+  }
 
 
   //CODE ABOVE HERE
@@ -62,8 +64,22 @@ EXAMPLE:
 
 */
 
-function countVowels(string){
+function countVowels(string) {
   //CODE BELOW HERE
+function countVowels(string) {
+  var vowel_list = "aeiouAEIOU";
+  var vcount = 0;
+    for(var x = 0; x < str1.length ; x++)
+  {
+    if (vowel_list.indexOf(str1[x]) !== -1)
+    {
+      vcount += 1;
+    }
+  
+  }
+  return vcount;
+}
+console.log(vowel_count("Beach"));
 
 
   //CODE ABOVE HERE
@@ -82,8 +98,15 @@ evenIndicies(otherArray) => false
 */
 
 
-function evenIndicies(array){
+function evenIndicies(array) {
   //CODE BELOW HERE
+function evenIndiciesAges = [12, 23, 16, 72];
+function checkEvenIndices(age) {
+  return age >= i> +2
+   document.getElementById("demo").innerHTML = ages.every(checkEvenIndicesAges)
+}
+
+
 
 
   //CODE ABOVE HERE
